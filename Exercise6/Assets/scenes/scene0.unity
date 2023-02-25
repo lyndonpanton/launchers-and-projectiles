@@ -131,6 +131,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4607478038513911385, guid: bddc1e19060042d49a367c24a53279b0,
+        type: 3}
+      propertyPath: prefabProjectile
+      value: 
+      objectReference: {fileID: 8241986408218083125, guid: 278fb5aceb0ac544f82c118f1590c2dc,
+        type: 3}
     - target: {fileID: 4388316429668923889, guid: bddc1e19060042d49a367c24a53279b0,
         type: 3}
       propertyPath: m_Name
@@ -327,3 +333,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c1482bb49acdb04a82d339cf62f829b, type: 3}
+--- !u!1001 &5689183534260894709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1668374841118992497, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052501909182512359, guid: ebeb2eac5920da548842fe67f55d6c61,
+        type: 3}
+      propertyPath: m_Name
+      value: ZombieLauncher
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ebeb2eac5920da548842fe67f55d6c61, type: 3}

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PirateProjectile : Projectile
+public class ZombieLauncher : Launcher
 {
     // Start is called before the first frame update
-    override protected void Start()
+    protected override void Start()
     {
-        impulseForce.x = 3;
+        cooldownSeconds = 1f;
         base.Start();
     }
 }
