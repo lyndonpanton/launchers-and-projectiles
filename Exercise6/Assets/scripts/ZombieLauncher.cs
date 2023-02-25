@@ -7,7 +7,7 @@ public class ZombieLauncher : Launcher
     // Start is called before the first frame update
     protected override void Start()
     {
-        cooldownSeconds = 1f;
+        cooldownSeconds = 0.5f;
         base.Start();
     }
 }

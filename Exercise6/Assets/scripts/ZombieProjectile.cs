@@ -7,7 +7,7 @@ public class ZombieProjectile : Projectile
     // Start is called before the first frame update
     protected override void Start()
     {
-        impulseForce.x = 3;
+        impulseForce.x = 9;
         base.Start();
     }
 }
