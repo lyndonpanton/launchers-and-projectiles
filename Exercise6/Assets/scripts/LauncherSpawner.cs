@@ -16,6 +16,8 @@ public class LauncherSpawner : MonoBehaviour
     [SerializeField]
     GameObject prefabZombieLauncher;
 
+    GameObject currentLauncher;
+
     Timer launcherSpawner;
 
     int runCount;
@@ -40,13 +42,18 @@ public class LauncherSpawner : MonoBehaviour
             switch(runCount)
             {
                 case 1:
-                    Instantiate(prefabChainsawLauncher);
+                    currentLauncher = Instantiate(prefabChainsawLauncher);
                     break;
                 case 2:
-                    Instantiate(prefabPirateLauncher);
+                    Destroy(currentLauncher);
+                    currentLauncher = Instantiate(prefabPirateLauncher);
                     break;
                 case 3:
-                    Instantiate(prefabZombieLauncher);
+                    Destroy(currentLauncher);
+                    currentLauncher = Instantiate(prefabZombieLauncher);
+                    break;
+                case 4:
+                    Destroy(currentLauncher);
                     spawnedAll = true;
                     break;
                 default:
