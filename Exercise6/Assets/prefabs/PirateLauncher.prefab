@@ -97,4 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c57931c339ca91f428e2d40fe60f00f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabProjectile: {fileID: 0}
+  prefabProjectile: {fileID: 8241986408218083125, guid: 278fb5aceb0ac544f82c118f1590c2dc,
+    type: 3}
